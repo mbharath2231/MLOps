@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score
 
 df = pd.read_csv('../data/sampregdata.csv')
 
-X = df[['x4']]
+X = df[['x4', 'x2']]
 y = df['y']
 
 model = LinearRegression()
