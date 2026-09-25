@@ -1,0 +1,3 @@
+# Linear Regression Modeling: SampRegData
+
+The current linear regression model utilizes two independent variables, `x4` and `x2`, to predict the target variable `y`. This iteration represents a significant improvement over our initial model, which was trained exclusively on the single strongest predictor, `x4`. By incorporating `x2` into the feature set, the model's explanatory power nearly doubled, increasing the R-squared value from roughly 0.275 (in the single-variable model) to 0.514. The previous single-variable iteration remains accessible in the project's Git history (see commit tag `v1.0`) for comparative analysis and reproducibility.
